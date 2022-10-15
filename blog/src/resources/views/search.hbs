@@ -1,0 +1,22 @@
+<div class="mt-5">
+    <form method="POST" action=""> {{!-- method mặc định của form là get
+         cũng có thể method là post khi dùng để gửi dữ liệu lên sever
+          khi dùng post tên sẽ không hiện thị trên url mà nó đi vào form data 
+           action là cái form này sẽ được submit ở đâu mặc định sẽ submit tại chính cái trang hiện tại
+           khi action là news nó sẽ submit lên trang news--}} 
+        <div class="mb-3">
+         <label for="exampleInputEmail1" class="form-label">Email address</label>
+         <input name="q" type="text" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="form-group">
+            <label for="gender-selection">Giới Tính</label>
+            <select id="gender-selection" name="gender" class="form-control">
+                <option value=''>----GIỚI TÍNH----</option>
+                <option value="male">Nam</option>
+                <option value="female">Nữ</option>
+            </select>
+        </div>
+       
+        <button type="submit" class="btn btn-primary mt-5">Tìm kiếm</button>
+</form>
+</div>

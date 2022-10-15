@@ -1,0 +1,27 @@
+<div class="container mt-4">
+    <h2>Đăng khoá học</h2>
+    <form method="POST" action="/course/store" > {{!-- sau khi post nó sẽ chuyển về trang chủ --}}
+    <div class="mb-3">
+        <label for="create-name" class="form-label">Tên Khoá Học</label>
+        <input type="text" class="form-control" id="create-name" name="name" >
+       
+    </div>
+    <div class="mb-3">
+        <label for="create-description" class="form-label">Mô tả</label>
+        <input type="text" class="form-control" id="create-description" name="description" >
+       
+    </div>
+    <div class="mb-3">
+        <label for="create-videoid" class="form-label">Video ID</label>
+        <input type="text" class="form-control" id="create-videoid" name="videoid" >
+        
+    </div>
+    <div class="mb-3">
+        <label for="create-level" class="form-label">Trình Độ</label>
+        <input type="text" class="form-control" id="create-level" name="level" >
+       
+    </div>
+   
+    <button type="submit" class="btn btn-primary">ĐĂNG KHOÁ HỌC</button>
+    </form>
+</div>
